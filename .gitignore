@@ -1,0 +1,29 @@
+# Construct 2/3 exported files and executables
+*.exe
+*.html
+*.htm
+*.zip
+*.rar
+*.7z
+
+# Exported folders
+/Atack Alien.EXE/     
+/Atack Alien.HTML5/ 
+/exported_project_name/
+/dist/
+/build/
+
+# Other common build/output folders
+bin/
+obj/
+
+# Visual Studio related (just in case)
+.vs/
+*.suo
+*.user
+*.sln.docstates
+*.userprefs
+
+# Temporary files
+*.tmp
+*.bak

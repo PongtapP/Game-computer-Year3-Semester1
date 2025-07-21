@@ -1,0 +1,16 @@
+{
+    "webexe_settings": {
+        "blacklist": "",
+        "custom_script": "",
+        "download_dir": "",
+        "export_dir": "C:/Users/un671.AJUNGFX505DU.000/OneDrive - Nakhon Phanom University/NPU 3-1/Game Computer/Project/Atack Alien/Attack Alien.EXE",
+        "force_download": false,
+        "nw_compression_level": 0,
+        "nw_version": "0.92.0",
+        "output_pattern": "",
+        "sdk_build": false,
+        "uncompressed_folder": false,
+        "whitelist": "",
+        "windows-x64": true
+    }
+}

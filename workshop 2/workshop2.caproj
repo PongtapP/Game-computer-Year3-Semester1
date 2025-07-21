@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>12hpsuqh70lnl</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1138</width>
+        <height>640</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="bg" sid="195353820069830">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="905100962911103" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500518" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\Free-Sky-with-Clouds-Background-Pixel-Art6.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="g1" sid="390281302270713">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="567941487441672">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\kenney_pixel-platformer\Tiles\tile_0022.png" />
+        </object-type>
+        <object-type name="g2" sid="492788407398229">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\kenney_pixel-platformer\Tiles\tile_0104.png" />
+        </object-type>
+        <object-type name="player" sid="388793406439906">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="585209918978148">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="104652971216811">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="10" loop="1" name="stand" pingpong="0" repeatcount="1" repeatto="0" sid="651226274439272" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Idle (1).png">
+                        <collision-poly>
+                            <point x="0.249077" y="0.28481" />
+                            <point x="0.5" y="0.191983" />
+                            <point x="0.675277" y="0.371308" />
+                            <point x="0.717712" y="0.5" />
+                            <point x="0.647601" y="0.597046" />
+                            <point x="0.5" y="0.957806" />
+                            <point x="0.341328" y="0.609705" />
+                            <point x="0.197417" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Idle (2).png">
+                        <collision-poly>
+                            <point x="0.249077" y="0.28481" />
+                            <point x="0.5" y="0.191983" />
+                            <point x="0.675277" y="0.371308" />
+                            <point x="0.717712" y="0.5" />
+                            <point x="0.647601" y="0.597046" />
+                            <point x="0.5" y="0.957806" />
+                            <point x="0.341328" y="0.609705" />
+                            <point x="0.197417" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Idle (3).png">
+                        <collision-poly>
+                            <point x="0.249077" y="0.28481" />
+                            <point x="0.5" y="0.191983" />
+                            <point x="0.675277" y="0.371308" />
+                            <point x="0.717712" y="0.5" />
+                            <point x="0.647601" y="0.597046" />
+                            <point x="0.5" y="0.957806" />
+                            <point x="0.341328" y="0.609705" />
+                            <point x="0.197417" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Idle (4).png">
+                        <collision-poly>
+                            <point x="0.249077" y="0.28481" />
+                            <point x="0.5" y="0.191983" />
+                            <point x="0.675277" y="0.371308" />
+                            <point x="0.717712" y="0.5" />
+                            <point x="0.647601" y="0.597046" />
+                            <point x="0.5" y="0.957806" />
+                            <point x="0.341328" y="0.609705" />
+                            <point x="0.197417" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Idle (5).png">
+                        <collision-poly>
+                            <point x="0.249077" y="0.28481" />
+                            <point x="0.5" y="0.191983" />
+                            <point x="0.675277" y="0.371308" />
+                            <point x="0.717712" y="0.5" />
+                            <point x="0.647601" y="0.597046" />
+                            <point x="0.5" y="0.957806" />
+                            <point x="0.341328" y="0.609705" />
+                            <point x="0.197417" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Idle (6).png">
+                        <collision-poly>
+                            <point x="0.249077" y="0.28481" />
+                            <point x="0.5" y="0.191983" />
+                            <point x="0.675277" y="0.371308" />
+                            <point x="0.717712" y="0.5" />
+                            <point x="0.647601" y="0.597046" />
+                            <point x="0.5" y="0.957806" />
+                            <point x="0.341328" y="0.609705" />
+                            <point x="0.197417" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Idle (7).png">
+                        <collision-poly>
+                            <point x="0.249077" y="0.28481" />
+                            <point x="0.5" y="0.191983" />
+                            <point x="0.675277" y="0.371308" />
+                            <point x="0.717712" y="0.5" />
+                            <point x="0.647601" y="0.597046" />
+                            <point x="0.5" y="0.957806" />
+                            <point x="0.341328" y="0.609705" />
+                            <point x="0.197417" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Idle (8).png">
+                        <collision-poly>
+                            <point x="0.249077" y="0.28481" />
+                            <point x="0.5" y="0.191983" />
+                            <point x="0.675277" y="0.371308" />
+                            <point x="0.717712" y="0.5" />
+                            <point x="0.647601" y="0.597046" />
+                            <point x="0.5" y="0.957806" />
+                            <point x="0.341328" y="0.609705" />
+                            <point x="0.197417" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Idle (9).png">
+                        <collision-poly>
+                            <point x="0.249077" y="0.28481" />
+                            <point x="0.5" y="0.191983" />
+                            <point x="0.675277" y="0.371308" />
+                            <point x="0.717712" y="0.5" />
+                            <point x="0.647601" y="0.597046" />
+                            <point x="0.5" y="0.957806" />
+                            <point x="0.341328" y="0.609705" />
+                            <point x="0.197417" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Idle (10).png">
+                        <collision-poly>
+                            <point x="0.249077" y="0.28481" />
+                            <point x="0.5" y="0.191983" />
+                            <point x="0.675277" y="0.371308" />
+                            <point x="0.717712" y="0.5" />
+                            <point x="0.647601" y="0.597046" />
+                            <point x="0.5" y="0.957806" />
+                            <point x="0.341328" y="0.609705" />
+                            <point x="0.197417" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="8" loop="1" name="walk" pingpong="0" repeatcount="1" repeatto="0" sid="765760495428705" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Run (1).png">
+                        <collision-poly>
+                            <point x="0.321033" y="0.367089" />
+                            <point x="0.5" y="0.202532" />
+                            <point x="0.734317" y="0.303797" />
+                            <point x="0.771218" y="0.5" />
+                            <point x="0.678967" y="0.632911" />
+                            <point x="0.5" y="0.968354" />
+                            <point x="0.356089" y="0.592827" />
+                            <point x="0.263838" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Run (2).png">
+                        <collision-poly>
+                            <point x="0.330258" y="0.377637" />
+                            <point x="0.5" y="0.196203" />
+                            <point x="0.756458" y="0.278481" />
+                            <point x="0.785978" y="0.5" />
+                            <point x="0.680812" y="0.635021" />
+                            <point x="0.490775" y="0.970464" />
+                            <point x="0.363469" y="0.584388" />
+                            <point x="0.282288" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Run (3).png">
+                        <collision-poly>
+                            <point x="0.341328" y="0.390295" />
+                            <point x="0.5" y="0.181435" />
+                            <point x="0.778598" y="0.253165" />
+                            <point x="0.802583" y="0.5" />
+                            <point x="0.490775" y="0.970464" />
+                            <point x="0.297048" y="0.660338" />
+                            <point x="0.300738" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Run (4).png">
+                        <collision-poly>
+                            <point x="0.330258" y="0.377637" />
+                            <point x="0.5" y="0.196203" />
+                            <point x="0.756458" y="0.278481" />
+                            <point x="0.785978" y="0.5" />
+                            <point x="0.680812" y="0.635021" />
+                            <point x="0.50369" y="0.970464" />
+                            <point x="0.363469" y="0.584388" />
+                            <point x="0.282288" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Run (5).png">
+                        <collision-poly>
+                            <point x="0.321033" y="0.367089" />
+                            <point x="0.5" y="0.202532" />
+                            <point x="0.734317" y="0.303797" />
+                            <point x="0.771218" y="0.5" />
+                            <point x="0.678967" y="0.632911" />
+                            <point x="0.5" y="0.968354" />
+                            <point x="0.356089" y="0.592827" />
+                            <point x="0.263838" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Run (6).png">
+                        <collision-poly>
+                            <point x="0.321033" y="0.367089" />
+                            <point x="0.5" y="0.202532" />
+                            <point x="0.734317" y="0.303797" />
+                            <point x="0.771218" y="0.5" />
+                            <point x="0.678967" y="0.632911" />
+                            <point x="0.5" y="0.968354" />
+                            <point x="0.356089" y="0.592827" />
+                            <point x="0.263838" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Run (7).png">
+                        <collision-poly>
+                            <point x="0.335793" y="0.383966" />
+                            <point x="0.5" y="0.181435" />
+                            <point x="0.780443" y="0.251055" />
+                            <point x="0.795203" y="0.5" />
+                            <point x="0.701107" y="0.658228" />
+                            <point x="0.501845" y="0.970464" />
+                            <point x="0.300738" y="0.656118" />
+                            <point x="0.297048" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Run (8).png">
+                        <collision-poly>
+                            <point x="0.328413" y="0.375527" />
+                            <point x="0.5" y="0.198312" />
+                            <point x="0.754613" y="0.280591" />
+                            <point x="0.782288" y="0.5" />
+                            <point x="0.678967" y="0.632911" />
+                            <point x="0.51845" y="0.970464" />
+                            <point x="0.363469" y="0.584388" />
+                            <point x="0.280443" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="8" loop="0" name="jump" pingpong="0" repeatcount="1" repeatto="0" sid="291577975539329" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Jump (1).png">
+                        <collision-poly>
+                            <point x="0.321033" y="0.367089" />
+                            <point x="0.5" y="0.196203" />
+                            <point x="0.734317" y="0.303797" />
+                            <point x="0.774908" y="0.5" />
+                            <point x="0.675277" y="0.628692" />
+                            <point x="0.5" y="0.968354" />
+                            <point x="0.359779" y="0.588608" />
+                            <point x="0.271218" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Jump (2).png">
+                        <collision-poly>
+                            <point x="0.263838" y="0.301688" />
+                            <point x="0.5" y="0.179325" />
+                            <point x="0.677122" y="0.369198" />
+                            <point x="0.710332" y="0.5" />
+                            <point x="0.647601" y="0.597046" />
+                            <point x="0.483395" y="0.970464" />
+                            <point x="0.356089" y="0.592827" />
+                            <point x="0.223247" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Jump (3).png">
+                        <collision-poly>
+                            <point x="0.188192" y="0.21519" />
+                            <point x="0.5" y="0.164557" />
+                            <point x="0.621771" y="0.432489" />
+                            <point x="0.638376" y="0.5" />
+                            <point x="0.619926" y="0.565401" />
+                            <point x="0.494465" y="0.970464" />
+                            <point x="0.245387" y="0.719409" />
+                            <point x="0.160517" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Jump (4).png">
+                        <collision-poly>
+                            <point x="0.190037" y="0.2173" />
+                            <point x="0.5" y="0.166667" />
+                            <point x="0.623616" y="0.43038" />
+                            <point x="0.638376" y="0.5" />
+                            <point x="0.621771" y="0.567511" />
+                            <point x="0.490775" y="0.970464" />
+                            <point x="0.249077" y="0.71519" />
+                            <point x="0.166052" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Jump (5).png">
+                        <collision-poly>
+                            <point x="0.193727" y="0.221519" />
+                            <point x="0.5" y="0.166667" />
+                            <point x="0.625461" y="0.42827" />
+                            <point x="0.638376" y="0.5" />
+                            <point x="0.625461" y="0.57173" />
+                            <point x="0.5" y="0.970464" />
+                            <point x="0.254613" y="0.708861" />
+                            <point x="0.169742" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Jump (6).png">
+                        <collision-poly>
+                            <point x="0.190037" y="0.2173" />
+                            <point x="0.5" y="0.166667" />
+                            <point x="0.623616" y="0.43038" />
+                            <point x="0.638376" y="0.5" />
+                            <point x="0.621771" y="0.567511" />
+                            <point x="0.5" y="0.970464" />
+                            <point x="0.249077" y="0.71519" />
+                            <point x="0.166052" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Jump (7).png">
+                        <collision-poly>
+                            <point x="0.188192" y="0.21519" />
+                            <point x="0.5" y="0.164557" />
+                            <point x="0.621771" y="0.432489" />
+                            <point x="0.638376" y="0.5" />
+                            <point x="0.619926" y="0.565401" />
+                            <point x="0.5" y="0.970464" />
+                            <point x="0.245387" y="0.719409" />
+                            <point x="0.160517" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\catndog\png\cat\Jump (8).png">
+                        <collision-poly>
+                            <point x="0.190037" y="0.2173" />
+                            <point x="0.5" y="0.166667" />
+                            <point x="0.623616" y="0.43038" />
+                            <point x="0.638376" y="0.5" />
+                            <point x="0.621771" y="0.567511" />
+                            <point x="0.501845" y="0.970464" />
+                            <point x="0.249077" y="0.71519" />
+                            <point x="0.166052" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="710545051587061">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="platform" sid="679043798676712">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="523888719361384">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="964673523600289" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\kenney_pixel-platformer\Tiles\tile_0049.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\workshop3\kenney_pixel-platformer\Tiles\tile_0048.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\workshop3\kenney_pixel-platformer\Tiles\tile_0050.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="crate" sid="968404162614319">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="959962387706327">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="607546335084728" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\workshop 2\kenney_pixel-platformer\Tiles\tile_0026.png">
+                        <collision-poly>
+                            <point x="0.0555556" y="0.0555556" />
+                            <point x="0.5" y="0" />
+                            <point x="0.944444" y="0.0555556" />
+                            <point x="1" y="0.5" />
+                            <point x="0.944444" y="0.944444" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0555556" y="0.944444" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="enemy1" sid="150297370602557">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="move" sid="595166688590514" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="203578064311280">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="915481986477766" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\workshop 2\kenney_pixel-platformer\Tiles\Characters\tile_0001.png" />
+                    <frame duration="5" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\un671.AJUNGFX505DU.000\OneDrive - Nakhon Phanom University\NPU 3-1\Game Computer\workshop 2\kenney_pixel-platformer\Tiles\Characters\tile_0000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="4" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
